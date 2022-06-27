@@ -5,8 +5,8 @@ function technologies() {
     <div className='technologies'>
       
         
-        <h3>Technologies 💻</h3>
-    
+      <h1 class="text-2xl font-bold sm:text-3xl">Technologies 💻 </h1>
+      
     
     </div>
   )
