@@ -31,8 +31,8 @@ function technologies() {
 								<span>GitHub</span>
 							</li>
 							<li className="flex space-x-2">	
-								<span><SiJava text="Java" /></span>
-								<span>Java</span>
+								<span><SiJava text="Java" /></span><span>Java</span>
+								
 							</li>
 							<li className="flex space-x-2">
 								<span><SiTailwindcss text="TailwindCSS" /></span>
