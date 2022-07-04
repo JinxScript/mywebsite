@@ -19,7 +19,7 @@ function technologies() {
      
 
       <div className="space-y-7">
-				<h1 className="text-2xl font-bold sm:text-3xl">Technologies 💻</h1>
+				<h1 className="text-5xl font-bold sm:text-4xl">Technologies 💻</h1>
 
 					<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 ">	
 							<li className="flex space-x-2">

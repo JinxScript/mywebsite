@@ -3,7 +3,7 @@ import Nav from './componets/navBar';
 import Hero from './componets/hero';
 import Technologies from './componets/technologies';
 import Footer from './componets/footer';
-
+import Projects from './componets/projects';
 function App() {
   return (  
     
@@ -15,6 +15,8 @@ function App() {
                 <Hero/> 
                 <br></br>
                 <Technologies/>
+                <br></br>
+                <Projects/>
                 <Footer/>
           </div>
           </div>
