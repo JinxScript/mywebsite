@@ -5,7 +5,6 @@ import {
 	SiJava,
 	SiReact,
 	SiCplusplus,
-	SiStyledcomponents as SiStyledComponents,
 	SiTailwindcss,
 
 //	SiTwitter,
@@ -22,16 +21,35 @@ function technologies() {
       <div className="space-y-7">
 				<h1 className="text-2xl font-bold sm:text-3xl">Technologies 💻</h1>
 
-				<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 ">
-          <SiReact text="React.js"/>
-          <SiGithub text="GitHub" />
-					<SiJava text="Java" />
-					<SiTailwindcss text="TailwindCSS" />
-					<SiGit text="Git" />
-          <SiCplusplus text="Cpp" />
-					<SiStyledComponents text="styled-components" />
-			
-				</ul>
+					<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 ">	
+							<li className="flex space-x-2">
+								<span><SiReact /> </span>
+								<span>React.Js</span>
+							</li>
+							<li className="flex space-x-2">
+								<span><SiGithub text="GitHub" /></span>
+								<span>GitHub</span>
+							</li>
+							<li className="flex space-x-2">	
+								<span><SiJava text="Java" /></span>
+								<span>Java</span>
+							</li>
+							<li className="flex space-x-2">
+								<span><SiTailwindcss text="TailwindCSS" /></span>
+								<span>TailwindCSS</span>
+							</li>
+							<li className="flex space-x-2">	
+								<span><SiGit text="Git" /></span>
+								<span>Git</span>
+							</li>
+							
+							<li className="flex space-x-2">
+								<span><SiCplusplus text="Cpp" /></span>
+								<span>C++</span>
+							</li>
+
+				
+					</ul>
 			</div>
     </div>
   )
