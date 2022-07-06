@@ -6,6 +6,7 @@ import {
 	SiReact,
 	SiCplusplus,
 	SiTailwindcss,
+	SiFigma
 
 //	SiTwitter,
 	
@@ -23,32 +24,35 @@ function technologies() {
 
 					<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 ">	
 							<li className="flex space-x-2">
-								<span><SiReact /> </span>
+								<span><SiReact className='h-6 w-6' /> </span>
 								<span>React.Js</span>
 							</li>
 							<li className="flex space-x-2">
-								<span><SiGithub text="GitHub" /></span>
+								<span><SiGithub className='h-6 w-6'/></span>
 								<span>GitHub</span>
 							</li>
 							<li className="flex space-x-2">	
-								<span><SiJava text="Java" /></span><span>Java</span>
+								<span><SiJava className='h-6 w-6' /></span><span>Java</span>
 								
 							</li>
 							<li className="flex space-x-2">
-								<span><SiTailwindcss text="TailwindCSS" /></span>
+								<span><SiTailwindcss className='h-6 w-6' /></span>
 								<span>TailwindCSS</span>
 							</li>
 							<li className="flex space-x-2">	
-								<span><SiGit text="Git" /></span>
+								<span><SiGit className='h-6 w-6' text="Git" /></span>
 								<span>Git</span>
 							</li>
 							
-							<li className="flex space-x-2">
-								<span><SiCplusplus text="Cpp" /></span>
-								<span>C++</span>
+							<li className="flex space-x-2">						
+								<span><SiCplusplus className='h-6 w-6' /> </span>
+								<span >C++</span>
+							</li>
+							<li className="flex space-x-2">						
+								<span><SiFigma className='h-6 w-6' /> </span>
+								<span >Figma</span>
 							</li>
 
-				
 					</ul>
 			</div>
     </div>

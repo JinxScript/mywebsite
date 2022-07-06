@@ -2,10 +2,10 @@ import React from 'react';
 
 function projects() {
   return (
-    <div>				
-        <h1 className="text-5xl font-bold sm:text-4xl">Projects</h1>
-
-    </div>
+    
+    <div className="grid grid-cols-1 auto-cols-max gap-1 sm:grid-cols-2 sm:gap-3">
+      hellow 
+  </div>
   )
 }
 
