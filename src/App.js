@@ -4,6 +4,7 @@ import Hero from './componets/hero';
 import Technologies from './componets/technologies';
 import Footer from './componets/footer';
 import Projects from './componets/projects';
+
 function App() {
   return (  
     

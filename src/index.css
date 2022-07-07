@@ -24,3 +24,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+html,
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ul {
+  list-style: disc inside;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4b515b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5c636e;
+}
+

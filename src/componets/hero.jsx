@@ -21,11 +21,13 @@ function Hero() {
             <h1 className="text-5xl font-bold ">Hey👋, I'm <span>JinxScript;</span> </h1>
           <br></br>
             <div className='text-slate-400 text-2xl'>
+              <ul className = "list-none">
                 <li>🎓 First Year Computer Science and Software Engineering Student</li>
                 <li> 💻 Aspiring Software Developer</li>
                 <li> 📰Blogger Shmurk Magazine </li>
                 <li> 🎥 Youtuber </li>
                 <li> 🎵 Music Producer  </li>
+             </ul>
 
             </div>
       
