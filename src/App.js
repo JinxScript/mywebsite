@@ -7,16 +7,17 @@ import Projects from './componets/projects';
 function App() {
   return (  
     
-    <div class="px-2 sm:px-8 md:px-24 lg:px-48 xl:px-72 text-white">
+    <div class="text-white p-4 py-10 mx-auto mt-5 max-w-3xl">
           <div	 >
             <br></br>
                <Nav />
                <br></br>
                 <Hero/> 
                 <br></br>
-                <Technologies/>
-                <br></br>
                 <Projects/>
+                
+                <br></br>
+                <Technologies/>
                 <Footer/>
           </div>
           </div>
